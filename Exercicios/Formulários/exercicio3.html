@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 3</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div class="form"
+             style="display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 2vh;">
+            <div class="name">
+                <label for="input_name">Nome:</label>
+                <input type="text" name="form_name" id="input_name" placeholder="Digite Seu Nome" required>
+            </div>
+
+            <div class="company">
+                <label for="input_company">Empresa:</label>
+                <input type="text" name="form_company" id="input_company" placeholder="Digite Sua Empresa" required>
+            </div>
+
+            <div class="age">
+                <label>Idade:</label>
+                <label><input type="radio" value="10-20" name="form_age" checked>10-20 anos</label>
+                <label><input type="radio" value="20-30" name="form_age">20-30 anos</label>
+                <label><input type="radio" value="30-50" name="form_age">30-50 anos</label>
+                <label><input type="radio" value="50-80" name="form_age">50-80 anos</label>
+            </div>
+
+            <div class="email">
+                <label for="input_email">Email:</label>
+                <input type="email" name="form_email" id="input_email" placeholder="Digite Seu Email" required>
+            </div>
+
+            <div class="phone">
+                <label for="input_phone">Telefone Comercial:</label>
+                <input type="tel" name="form_phone" id="input_phone" placeholder="99 9999-9999" pattern="[0-9]{2} [0-9]{4}-[0-9]{4}" required>
+
+                <label for="input_cellphone">Celular:</label>
+                <input type="tel" name="form_cellphone" id="input_cellphone" placeholder="099 99999-9999" pattern="[0-9]{3} [0-9]{5}-[0-9]{4}" required>
+            </div>
+
+            <div class="services_now">
+                <label>Como você avalia os nossos serviços atualmente?</label>
+                <div class="services_now_container" style="display: flex; align-items: center; justify-content: center; gap: 1vw;">
+                    <label><input type="radio" name="form_services_now" value="regular">Regular</label>
+                    <label><input type="radio" name="form_services_now" value="good">Bom</label>
+                    <label><input type="radio" name="form_services_now" value="excellent" checked>Excelente</label>
+                </div>
+            </div>
+
+            <div class="services_operational">
+                <label>Como você avalia os nossos serviços da área operacional?</label>
+                <div class="services_operational_container" style="display: flex; align-items: center; justify-content: center; gap: 1vw;">
+                    <label><input type="radio" name="form_services_operational" value="regular">Regular</label>
+                    <label><input type="radio" name="form_services_operational" value="good">Bom</label>
+                    <label><input type="radio" name="form_services_operational" value="excellent" checked>Excelente</label>
+                </div>
+            </div>
+
+            <div class="satisfaction_administration">
+                <label>Qual o seu nível de satisfação com o atendimento administrativo quando você precisa?</label>
+                <div class="satisfaction_administration_container" style="display: flex; align-items: center; justify-content: center; gap: 1vw;">
+                    <label><input type="radio" name="form_satisfaction_administration" value="low">Pouco Satisfatório</label>
+                    <label><input type="radio" name="form_satisfaction_administration" value="good">Satisfatório</label>
+                    <label><input type="radio" name="form_satisfaction_administration" value="high" checked>Muito Satisfatório</label>
+                </div>
+            </div>
+
+            <div class="satisfaction_professionals">
+                <label>Os profissionais lhe atendendem de maneira satisfatória?</label>
+                <div class="satisfaction_professional_container" style="display: flex; align-items: center; justify-content: center; gap: 1vw;">
+                    <label><input type="radio" name="form_satisfaction_professional" value="no">Não</label>
+                    <label><input type="radio" name="form_satisfaction_professional" value="yes" checked>Sim</label>
+                </div>
+            </div>
+            
+            <div class="suggestion">
+                <div class="suggestion_container" style="display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 1vh;">
+                    <label for="suggestion">Você tem alguma sugestão ou crítica a fazer para cada vez mais melhorarmos nossos serviços?</label>
+                    <textarea name="form_suggestion" id="suggestion" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    background-color: #660000;
+    color: #ffc8c8;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 1000;
+
+    transition: scale 0.25s ease, color 0.25s ease;
+}
+
+h1:hover {
+    color: #fff;
+    scale: 1.1;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffc8c8;
+}

@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-exercicio1 {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffc8c8;
+}
+
+.container-exercicio1 .quadrado-meio {
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #660000;
+    color: #ffc8c8;
+
+    font-family: sans-serif;
+}
+
+.menu-container {
+    width: 100vw;
+    height: 15vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: #660000;
+}
+
+.menu-vertical {
+    width: 15vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3vh;
+
+    background-color: #660000;
+}
+
+.menu-vertical-item {
+    width: 50%;
+    height: 10%;
+
+    background-color: #ffc8c8;
+    color: #660000;
+
+    font-family: sans-serif;
+}
+
+.logo-vertical {
+    margin: 2vh 0 2vh 0;
+}
+
+.logo-horizontal {
+    margin: 0 2vw 0 2vw;
+}
+
+.menu-container .menu-item {
+    width: 10%;
+    height: 50%;
+
+    margin-left: 1vw;
+
+    background-color: #ffc8c8;
+
+    font-family: sans-serif;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #660000;
+    text-decoration: none;
+}
+
+.container-exercicio4 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-container {
+    width: 75%;
+    height: 75%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vw;
+
+    border: none;
+    border-radius: 2vh;
+
+    padding: 5vh 0 10vh 0;
+
+    background-color: #000;
+}
+
+.meses-card {
+    width: 15%;
+    height: 25%;
+}
+
+.dias31 {
+    background-color: red;
+}
+
+.dias31 a {
+    color: green;
+}
+
+.dias28 {
+    background-color: green;
+}
+
+.dias28 a {
+    color: blue;
+}
+
+.dias30 {
+    background-color: blue;
+}
+
+.dias30 a {
+    color: red;
+}

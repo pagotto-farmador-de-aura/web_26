@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div class="form" style="display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 2vh;">
+            <label for="input_name">Nome do Produto</label>
+            <input type="text" name="form_name" id="input_name" placeholder="Ex.: Bola de Futebol" required>
+
+            <label for="input_description">Descrição do Produto</label>
+            <textarea name="form_description" id="input_description" cols="25" rows="5" required></textarea>
+
+            <label for="input_category">Categoria do Produto</label>
+            <select name="form_category" id="input_category" required>
+                <option value="eletronics">Eletrônicos</option>
+                <option value="books">Livros</option>
+                <option value="toys">Brinquedos</option>
+                <option value="sports">Esportes</option>
+                <option value="shoes">Calçados</option>
+            </select>
+
+            <label for="input_country">País de Fabricação</label>
+            <select name="form_country" id="input_country" required>
+                <option value="China">China</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Paraguai">Paraguai</option>
+                <option value="Japão">Japão</option>
+            </select>
+
+            <label for="input_price">Preço do Produto</label>
+            <input type="number" name="form_price" id="input_price" placeholder="Ex.: R$ 1000" required>
+
+            <label for="input_date">Data de Fabricação</label>
+            <input type="date" name="form_date" id="input_date" required>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+</body>
+</html>
